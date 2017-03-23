@@ -1,0 +1,5 @@
+﻿CustomerIdName;Name;RequestDeliveryBy;SalesOrderDetailId;OrderNumber;BaseAmount;ExtendedAmount;LineItemNumber;ProductId;new_Trainerauftragsnr;new_Enddatum
+IEFP Figueira;HTML basic for IEFP;23.03.2017;fd7ee292-9f25-428f-9311-0f9d0fe68996;2017-01;100;123;1;02e15017-bc2c-4df3-a00f-e4c8083f5630;;24.03.2017
+IEFP Figueira;HTML basic again;30.03.2017;11ff3a69-ea89-41f0-a7cd-381a26d91a43;2017-01;200;246;2;02e15017-bc2c-4df3-a00f-e4c8083f5630;;02.04.2017
+IEFP Coimbra;HTML advanced;24.03.2017;c5e02733-0275-4dc9-b6df-a1a0299c600d;2017-02;300;369;1;2587c056-5bc0-4ab9-8735-7670dba02e40;;28.03.2017
+IEFP Coimbra;HTML advanced once more;31.03.2017;106dc606-77ae-4e89-89d0-3feb985b450d;2017-03;200;246;1;2587c056-5bc0-4ab9-8735-7670dba02e40;;03.04.2017
