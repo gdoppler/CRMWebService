@@ -82,8 +82,10 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DefaultActualHolidaySaldo.cs" />
     <Compile Include="DefaultContacts.cs" />
     <Compile Include="DefaultProducts.cs" />
+    <Compile Include="DefaultpublicHolidays.cs" />
     <Compile Include="DefaultSalesOrderDetails.cs" />
     <Compile Include="DefaultStaff.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -96,8 +98,10 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="App_Data\actualHolidays.csv" />
     <None Include="App_Data\contacts.csv" />
     <None Include="App_Data\products.csv" />
+    <Content Include="App_Data\publicHolidays.csv" />
     <None Include="App_Data\salesorderdetails.csv" />
     <Content Include="App_Data\staff.csv" />
   </ItemGroup>

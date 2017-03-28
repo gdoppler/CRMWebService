@@ -31,6 +31,37 @@ namespace CRMWebService
                 return _staff;
             }
         }
+
+        // Feiertage
+        DefaultpublicHolidays _publicHolidays;
+        DefaultpublicHolidays publicHolidays
+        {
+            get
+            {
+                if (_publicHolidays == null)
+                {
+                    string filename = Path.Combine(pathOfAppData, "publicHolidays.csv");
+                    _publicHolidays = new DefaultpublicHolidays(filename);
+                }
+                return _publicHolidays;
+            }
+        }
+
+        //getUrlaubssaldo
+        DefaultActualHolidaySaldo _actualHolidaySaldo;
+        DefaultActualHolidaySaldo actualHolidaySaldo
+        {
+            get
+            {
+                if (_actualHolidaySaldo == null)
+                {
+                    string filename = Path.Combine(pathOfAppData, "actualHolidays.csv");
+                    _actualHolidaySaldo = new DefaultActualHolidaySaldo(filename);
+                }
+                return _actualHolidaySaldo;
+            }
+        }
+
         public DataSet Feiertage()
         {
             /*
@@ -45,7 +76,8 @@ namespace CRMWebService
             return _publicHolidays;
               
              */
-            throw new NotImplementedException();
+
+            return publicHolidays.GetAllHolidays();
         }
 
         public DataSet getSollZeiten()
@@ -178,7 +210,7 @@ namespace CRMWebService
             }
             return result;
             */
-            throw new NotImplementedException();
+            return actualHolidaySaldo.GetAllActualHolidays();
         }
 
         public DataSet getZeitdaten()
