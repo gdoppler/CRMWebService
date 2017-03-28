@@ -1,0 +1,3 @@
+﻿Trainer;No;FirstName;LastName;Title;PhoneNo;Mobile;Email;sex;StatusActiveInactive;CompanyEmail;AMS;BusinessBereich;Extern;BitLogin;Admin;Superadmin;Supervisior;BirthDate
+0;FB01;Gerhard;Doppler;DI;+351964441253;+351964441253;gdoppler@future-balloons.eu;2;0;gdoppler@future-balloons.eu;0;0;0;futureballoons3\Gerhard;1;1;;02.11.1971
+0;FB02;Marisa;Oliveira;Dr.;;;moliveira@future-balloons.eu;1;0;moliveira@future-balloons.eu;1;0;0;futureballoons3\Marisa;1;1;FB01;05.01.1975
