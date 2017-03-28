@@ -17,6 +17,18 @@ namespace CRMWebService
     {
         public DataSet Feiertage()
         {
+            /*
+             * here the table name is not important - you can name it e.g. "Holidays"
+              DataTable dt = ds.Tables[0];
+            _publicHolidays = new Dictionary<DateTime, string>();
+            foreach (DataRow dr in dt.Rows) {
+                DateTime date = (DateTime)dr["Datum"];
+                string description = dr["Bezeichnung"].ToString();
+                _publicHolidays.Add(date, description);
+            }
+            return _publicHolidays;
+              
+             */
             throw new NotImplementedException();
         }
 
@@ -137,6 +149,19 @@ namespace CRMWebService
 
         public DataSet getUrlaubssaldo()
         {
+            /*
+             * again the table name is not important - i just read the first table in the dataset. 
+             "Personalnummer" should refer to a "PersId" from the staff table
+
+              Dictionary<string, decimal> result = new Dictionary<string, decimal>();
+            DataTable dt = actualHolidayDS.Tables[0];
+            foreach (DataRow dr in dt.Rows) {
+                string persId = dr["Personalnummer"].ToString();
+                decimal actualHolidaySaldo = (decimal)dr["Urlaubssaldo"];
+                result.Add(persId, actualHolidaySaldo);
+            }
+            return result;
+            */
             throw new NotImplementedException();
         }
 
