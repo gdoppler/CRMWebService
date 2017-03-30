@@ -220,7 +220,11 @@ namespace CRMWebService
 
         public DataSet getZeitdatenPerMAString(string[] persids)
         {
-            throw new NotImplementedException();
+            // default implementation: return a dataset with an empty table. 
+            DataTable table = new DataTable();
+            DataSet result = new DataSet();
+            result.Tables.Add(table);
+            return result;
         }
 
         [WebMethod]
@@ -246,7 +250,11 @@ namespace CRMWebService
 
         public DataSet Stempeldaten(string[] persids, DateTime von, DateTime bis)
         {
-            throw new NotImplementedException();
+            // default implementation: return a dataset with an empty table. 
+            DataTable table = new DataTable();
+            DataSet result = new DataSet();
+            result.Tables.Add(table);
+            return result;
         }
 
         public DataSet StempeldatenPerZeitraum(DateTime von, DateTime bis)
